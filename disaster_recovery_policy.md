@@ -77,7 +77,7 @@ The primary objective of the technical test is to ensure the communication proce
 
 ## 1. Notification and Activation Phase
 
-This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Zane Benefits. Based on the assessment of the Event, sometimes according to the Zane Benefits Incident Response Policy, the Contingency Plan may be activated by either the CTO or VP of Engineering.
+This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Zane Benefits. Based on the assessment of the Event, sometimes according to the Zane Benefits Incident Response Policy, the Contingency Plan may be activated by either the CTO or Software Architect.
 
 Contact information for key personnel is located in Appendix A. The notification sequence is listed below:
 

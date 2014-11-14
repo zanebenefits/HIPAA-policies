@@ -46,10 +46,13 @@ This policy applies to all Zane Benefits Add-on systems, including SaaS, that st
 	* System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Zane Benefits utilizes file system monitoring from OSSEC to assure the integrity of file system data.
 	* Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 1. Zane Benefits shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Zane Benefits.
-1. Zane Benefits uses CloudWatch to monitor systems in its environment. 
+1. Zane Benefits utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems. Alerts from OSSEC are sent to CloudWatch, the monitoring service that we use.
+1. Zane Benefits uses CloudWatch to monitor systems in its environment.
+1. Zane Benefits uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
 1. Zane Benefits shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information. The “events” may be applied to the entire Zane Benefits Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
+1. In addition to trigger events, Zane Benefits utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
 1. Logs are reviewed monthly by Security Officer. 
-1. Zane Benefits’ Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. These tools may include, but are not limited to:
+1. Zane Benefits’ Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
 	* Scanning tools and devices;
 	* Password cracking utilities;
 	* Network “sniffers”.

@@ -21,7 +21,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current Zane Benefits Privacy Officer is TBD ([tbd@zanebenefits.com](mailto:tbd@zanebenefits.com)).
+The current Zane Benefits Privacy Officer is Denita Preston ([denita.preston@zanebenefits.com](mailto:denita.preston@zanebenefits.com)).
 
 ## Workforce Training Responsibilities
 

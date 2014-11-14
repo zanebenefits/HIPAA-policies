@@ -13,8 +13,9 @@ Zane Benefits standardizes and automates configuration management through the us
 ## Configuration Management
 
 1. Ansible is used to standardize and automate configuration management.
+2. OSSEC is used to scan systems every 2 hours and on reboot. These scans capture file system changes and also unauthorized or malicious software.
 1. No systems are deployed into Zane Benefits environments without approval of the Zane Benefits CTO.
-1. All changes to production systems, network devices, and firewalls are approved by the Zane Benefits CTO before they are implemented.
+1. All changes to production systems, network devices, and firewalls are approved by the Zane Benefits CTO before they are implemented. Additionally, all changes are tested before they are implemented in production.
 1. An up-to-date inventory of systems is maintained using Google spreadsheets and architecture diagrams hosted on Google Apps and Drive. All systems are categorized as production and utility to differentiate based on criticality.
 1. Clocks are synchronized across all systems using NTP. Modifying time data on systems is restricted.
 1. All front end functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers.
